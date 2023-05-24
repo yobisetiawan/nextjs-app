@@ -3,7 +3,7 @@ export default function Page() {
     <main>
       <div className="container">
         <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl">
-          Login
+          Welcome
         </h1>
       </div>
     </main>

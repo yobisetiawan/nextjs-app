@@ -1,7 +1,9 @@
+import NavTop from "@/components/shared/client/nav-top";
+
 export default function Template({ children }: { children: React.ReactNode }) {
   return (
-    <div className="admin-template">
-      <div>Admin Layout</div>
+    <div className="client-template">
+      <NavTop />
       {children}
     </div>
   );
