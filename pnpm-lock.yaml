@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@hookform/resolvers': ^3.1.0
   '@radix-ui/react-accordion': ^1.1.1
   '@radix-ui/react-alert-dialog': ^1.0.3
   '@radix-ui/react-aspect-ratio': ^1.0.2
@@ -44,12 +45,15 @@ specifiers:
   react: 18.2.0
   react-day-picker: ^8.7.1
   react-dom: 18.2.0
+  react-hook-form: ^7.43.9
   tailwind-merge: ^1.12.0
   tailwindcss: 3.3.2
   tailwindcss-animate: ^1.0.5
   typescript: 5.0.4
+  zod: ^3.21.4
 
 dependencies:
+  '@hookform/resolvers': 3.1.0_react-hook-form@7.43.9
   '@radix-ui/react-accordion': 1.1.1_biqbaboplfbrettd7655fr4n2y
   '@radix-ui/react-alert-dialog': 1.0.3_tqcjxml4rosq5qpg5cznikfcd4
   '@radix-ui/react-aspect-ratio': 1.0.2_biqbaboplfbrettd7655fr4n2y
@@ -93,10 +97,12 @@ dependencies:
   react: 18.2.0
   react-day-picker: 8.7.1_kzhlcyde2l6xjiirkbg7jzhosa
   react-dom: 18.2.0_react@18.2.0
+  react-hook-form: 7.43.9_react@18.2.0
   tailwind-merge: 1.12.0
   tailwindcss: 3.3.2
   tailwindcss-animate: 1.0.5_tailwindcss@3.3.2
   typescript: 5.0.4
+  zod: 3.21.4
 
 packages:
 
@@ -171,6 +177,14 @@ packages:
       use-isomorphic-layout-effect: 1.1.2_s3k22s5ab4eu26xuel7hiaraxy
     transitivePeerDependencies:
       - '@types/react'
+    dev: false
+
+  /@hookform/resolvers/3.1.0_react-hook-form@7.43.9:
+    resolution: {integrity: sha512-z0A8K+Nxq+f83Whm/ajlwE6VtQlp/yPHZnXw7XWVPIGm1Vx0QV8KThU3BpbBRfAZ7/dYqCKKBNnQh85BkmBKkA==}
+    peerDependencies:
+      react-hook-form: ^7.0.0
+    dependencies:
+      react-hook-form: 7.43.9_react@18.2.0
     dev: false
 
   /@humanwhocodes/config-array/0.11.8:
@@ -3324,6 +3338,15 @@ packages:
       loose-envify: 1.4.0
       react: 18.2.0
       scheduler: 0.23.0
+    dev: false
+
+  /react-hook-form/7.43.9_react@18.2.0:
+    resolution: {integrity: sha512-AUDN3Pz2NSeoxQ7Hs6OhQhDr6gtF9YRuutGDwPQqhSUAHJSgGl2VeY3qN19MG0SucpjgDiuMJ4iC5T5uB+eaNQ==}
+    engines: {node: '>=12.22.0'}
+    peerDependencies:
+      react: ^16.8.0 || ^17 || ^18
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /react-is/16.13.1:
