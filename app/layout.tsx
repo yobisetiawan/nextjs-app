@@ -5,8 +5,10 @@ import { Toaster } from "@/components/ui/toaster";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "App",
-  description: "App - generated",
+  title: {
+    default: "App",
+    template: "App - %s",
+  },
 };
 
 export default function RootLayout({
