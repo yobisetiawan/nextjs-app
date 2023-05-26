@@ -18,7 +18,10 @@ export default function Template({ children }: { children: React.ReactNode }) {
               <Link href={"/administrator"}>Dashboard</Link>
             </li>
             <li>
-              <Link href={"/administrator"}>User</Link>
+              <Link href={"/administrator/user"}>User</Link>
+            </li>
+            <li>
+              <Link href={"/administrator/users"}>Users</Link>
             </li>
           </ul>
         </div>
